@@ -285,7 +285,10 @@ https://open-wegram-bot.username.workers.dev/public/install/123456789/000000000:
 > [!NOTE]
 > 一个 Worker 实例可以注册多个不同的 Bot！只需重复上述注册步骤，使用不同的 Bot API Token 即可。
 
-
+### 设置 TG链接
+```
+https://api.telegram.org/bot<你的Bot Token>/setWebhook?url=https://<你的Worker域名>/<你的PREFIX>
+```
 
 ### 卸载 Bot ❌
 
